@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+
+body{
+background-color: black;
+}
+.container {
+     display: flex; 
+    flex-direction: column;
+    width: 1200px;
+    height: 1010px;
+    border: 2px solid;
+    margin-left: 450px;
+   }
+  
+   .menu {
+    list-style-type: none;
+    align-items: space-between;
+    display: flex;
+  }
+  
+  .one {
+    background-color: #1F2937;
+    height: 300px;
+    width: 1000px;
+    color: white;
+    display: flex;
+   
+    
+    
+  }
+
+  .two {
+    background-color: white;
+    height: 250px;
+    width: 1000px;
+  }
+
+
+  .three {
+    background-color: #E5E7EB;
+    height: 250px;
+    width: 1000px;
+  }
+  
+  .four {
+        background-color: white;
+        height: 150px;
+        width: 1000px;
+    
+  }
+
+  .five {
+    background-color: #1F2937;
+    height: 60px;
+    width: 1000px;
+
+}
