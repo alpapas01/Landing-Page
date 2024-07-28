@@ -1,36 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-
-body{
-background-color: black;
-}
-.container {
-     display: flex; 
-    flex-direction: column;
-    width: 1200px;
-    height: 1010px;
-    border: 2px solid;
-    margin-left: 450px;
-   }
-  
-   .menu {
-    list-style-type: none;
-    align-items: space-between;
-    display: flex;
-  }
-  
-  .one {
+  .header {
     background-color: #1F2937;
-    height: 300px;
-    width: 1000px;
+    /* width: 1000px; */
     color: white;
+    align-items: center;
+    justify-content: space-around;
     display: flex;
-   
-    
-    
   }
 
-  .two {
+  .header-links {
+    display: flex;
+    gap:10px;
+  }
+
+  .header-links a{
+    text-decoration: none;
+    color:white
+  }
+
+  /* .two {
     background-color: white;
     height: 250px;
     width: 1000px;
@@ -55,4 +44,4 @@ background-color: black;
     height: 60px;
     width: 1000px;
 
-}
+} */
